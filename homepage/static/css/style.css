@@ -1,0 +1,375 @@
+html, body, div {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    margin-top: -10px;
+}
+
+.inner_main_menu {
+    margin: 0 auto;
+    width: auto;
+}
+
+.inner_main_menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: right;
+}
+
+.inner_main_menu ul li {
+    float: none;
+    display: inline-block;
+}
+
+.inner_main_menu ul li a {
+    color: #ffffff;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+    padding: 10px 20px;
+}
+
+.inner_main_menu ul li a:hover {
+}
+
+#cssmenu {
+    padding-right: 100px;
+    position: relative;
+}
+
+#cssmenu ul,
+#cssmenu li {
+    list-style: none;
+}
+
+#cssmenu ul {
+    position: relative;
+    z-index: 597;
+}
+
+#cssmenu ul li {
+    float: right;
+    min-height: 1px;
+    margin-top: 0px;
+}
+
+#cssmenu ul li.hover,
+#cssmenu ul li:hover {
+    position: relative;
+    z-index: 599;
+    cursor: default;
+}
+
+#cssmenu ul ul {
+    visibility: hidden;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 598;
+    width: 100%;
+}
+
+#cssmenu ul ul li {
+    float: none;
+}
+
+#cssmenu ul li:hover > ul {
+    visibility: visible;
+}
+
+#cssmenu ul ul {
+    bottom: 0;
+    left: 0;
+}
+
+#cssmenu ul ul {
+    margin-top: 0;
+}
+
+#cssmenu ul ul li {
+    font-weight: normal;
+}
+
+#cssmenu a {
+    display: block;
+    line-height: 1em;
+    text-decoration: none;
+}
+
+/* Custom CSS Styles */
+#cssmenu {
+    background: rgba(255, 255, 255, 0.0);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.0);
+    font-family: 'Oxygen Mono', Tahoma, Arial, sans-serif;
+    font-size: 12px;
+}
+
+#cssmenu:after,
+#cssmenu ul:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+#cssmenu ul {
+    text-transform: uppercase;
+}
+
+#cssmenu ul ul {
+    border-top: 1px solid rgba(255, 255, 255, 0.0);
+    text-transform: none;
+    text-align: center;
+    min-width: 140px;
+}
+
+#cssmenu ul ul a {
+    background: #ffffff;
+    color: #000000;
+    border: 1px solid #ffffff;
+    border-top: 0 none;
+    line-height: 190%;
+    padding: 10px 5px;
+    font-size: 18px;
+}
+
+#cssmenu ul ul ul {
+    border-top: 0 none;
+}
+
+#cssmenu ul ul li {
+    position: relative;
+    font-size: 18px;
+}
+
+#cssmenu ul ul li:first-child > a {
+    border-top: 1px solid #ffffff;
+}
+
+#cssmenu ul ul li:last-child > a {
+    -moz-border-radius: 0 0 3px 3px;
+    -webkit-border-radius: 0 0 3px 3px;
+    border-radius: 0 0 3px 3px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    -moz-box-shadow: 0 1px 0 #ffffff;
+    -webkit-box-shadow: 0 1px 0 #ffffff;
+    box-shadow: 0 1px 0 #ffffff;
+}
+
+#cssmenu ul ul li:last-child:hover > a {
+    -moz-border-radius: 0 0 0 3px;
+    -webkit-border-radius: 0 0 0 3px;
+    border-radius: 0 0 0 3px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+}
+
+#cssmenu ul li:hover,
+#cssmenu ul li.active > a {
+    background: transparent;
+}
+
+#cssmenu ul li.last ul {
+    left: auto;
+    right: 0;
+}
+
+#cssmenu ul li.last ul ul {
+    left: auto;
+    right: 99.5%;
+}
+
+h3 {
+    color: white;
+    font-size: 12px;
+    padding-left: 5px;
+    padding-right: 5px;
+    position: center;
+    margin-top: -2px;
+}
+
+#cssmenu a {
+    background: rgba(255, 255, 255, 0.4);
+    color: #CBCBCB;
+    padding: 0 20px;
+}
+
+.menu-text{
+    font-size: 15px;
+}
+
+.outer{
+    background: rgba(0,191,255, 0.4);
+    width: 1885px;
+}
+
+#cssmenu > ul > li > a {
+    line-height: 48px;
+    font-size: 12px;
+    color: #ffffff;
+}
+
+
+#main_menu {
+    width: 100%;
+    position: relative;
+}
+
+.logo_area {
+    width: 165px;
+    height: 165px;
+    position: absolute;
+    left: 50%;
+    top: -10px;
+    content: "";
+    margin-left: -82.5px;
+}
+
+.footer-main-div {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    background: #fff;
+    padding: 5px 0px;
+    position: relative;
+    bottom: -965px;
+}
+
+#icons {
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+#icons ul {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+#icons ul li {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 0px 10px;
+    border-radius: 100%;
+    background: #fff;
+}
+
+#icons ul li a {
+    color: #D3D3D3;
+    font-size: 25px;
+}
+
+#icons ul li a i {
+    line-height: 50px;
+}
+
+.footer-menu-one {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.footer-menu-one ul {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+.footer-menu-one ul li {
+    display: inline-block;
+    margin: 0px 15px;
+    font-family: 'Oxygen Mono', Tahoma, Arial, sans-serif;
+    color: #D3D3D3;
+}
+
+.footer-menu-one ul li a {
+    font-size: 15px;
+    font-weight: 600;
+    color: #ffff;
+    text-transform: uppercase;
+    outline: none;
+}
+
+.footer-menu-two {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.footer-menu-two ul {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.footer-menu-two ul li {
+    display: inline-block;
+    margin: 0px 15px;
+}
+
+.footer-menu-two ul li a {
+    font-family: 'Oxygen Mono', Tahoma, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: #808080;
+    text-transform: uppercase;
+    text-decoration: none;
+    outline: none;
+}
+
+.bottom_logo_area {
+    width: 125px;
+    height: 125px;
+    position: absolute;
+    margin-left: 50px;
+    top: -1px;
+    content: "";
+    float: left;
+}
+
+#cssmenu ul li a span {
+    font-size: 15px;
+}
+
+#cssmenu {
+    top: 85px;
+}
+
+#search {
+    border: none;
+    font-size: 20px;
+    outline: none;
+    font-family: 'Oxygen Mono', Tahoma, Arial, sans-serif;
+    color: black;
+    background: transparent;
+    border-radius: 15px;
+    text-decoration-color: white;
+    width: 240px;
+    border-color: black;
+    height: 40px;
+}
+
+hr {
+    border-width: 1px;
+    align-content: center;
+    width: 1000px;
+    margin-top: 110px;
+    border-style: inset;
+}
